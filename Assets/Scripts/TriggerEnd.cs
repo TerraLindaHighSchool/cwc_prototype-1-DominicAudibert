@@ -8,6 +8,7 @@ public class TriggerEnd : MonoBehaviour
 
 
     // Start is called before the first frame update
+    //Finds the game manager
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();

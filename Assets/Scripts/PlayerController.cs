@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
+        //Makes the car engine sound
         if (other.gameObject.tag == "GameOverTemp")
         {
             carEngineSound.Stop();

@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
+    //This creates the game over text on the canvas.
     public void GameOver()
     {
         gameOverText.SetActive(true);
